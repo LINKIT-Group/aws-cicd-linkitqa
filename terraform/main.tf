@@ -4,16 +4,16 @@ locals {
 }
 
 resource "aws_codecommit_repository" "linkitQA-server-repository" {
-  repository_name = "linkitQA-server-repository"
-  description     = "linkitQA-server-repository"
+  repository_name = "linkitqa-client-repo"
+  description     = "linkitqa-client-repo"
   lifecycle {
     prevent_destroy = true
   }
 }
 
 resource "aws_codecommit_repository" "linkitQA-client-repository" {
-  repository_name = "linkitQA-client-repository"
-  description     = "linkitQA-client-repository"
+  repository_name = "linkitqa-server-repo"
+  description     = "linkitqa-server-repo"
   lifecycle {
     prevent_destroy = true
   }
