@@ -34,7 +34,7 @@ aws_secret_access_key = ${YOUR_SECRET_ACCESS_KEY}
 Note: at first run a Docker image will be build, this can take a few minutes. Subsequent runs are much faster.
 ### Pull-merge a GIT repository into ./build/buildrepo
 ```
-make git url=${GIT_REPO}
+make git url=https://github.com/LINKIT-Group/aws-cicd-linkitqa
 ```
 ### Deploy infrastructure
 ```
