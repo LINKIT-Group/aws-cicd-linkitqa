@@ -12,6 +12,8 @@
 
 ![MakeInfra](https://github.com/LINKIT-Group/deployscript/raw/master/files/makeinfra-20190410.png)
 
+![CICD](https://github.com/LINKIT-Group/deployscript/raw/master/files/cicd-fargate-update.png)
+
 
 ## Prepare
 ### clone this project
