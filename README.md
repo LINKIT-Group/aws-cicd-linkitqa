@@ -16,7 +16,7 @@
 ## Prepare
 ### clone this project
 ```
-git clone https://github.com/LINKIT-Group/deployscript.git
+git clone https://github.com/LINKIT-Group/aws-cicd-linkitqa.git
 ```
 
 ### setup credentials for AWS
