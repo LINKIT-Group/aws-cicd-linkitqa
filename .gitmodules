@@ -1,6 +1,6 @@
-[submodule "terraform/modules/aws-network"]
-	path = terraform/modules/aws-network
-	url = ssh://bitbucket.org/linkit-group/terraform-aws-network.git
-[submodule "terraform/modules/aws-cicd"]
-	path = terraform/modules/aws-cicd
-	url = ssh://bitbucket.org/linkit-group/terraform-aws-cicd.git
+[submodule "terraform/modules/ecs"]
+	path = terraform/modules/ecs
+	url = https://github.com/LINKIT-Group/aws-ecs.git 
+[submodule "terraform/modules/code-pipeline"]
+	path = terraform/modules/code_pipeline
+	url = https://github.com/LINKIT-Group/aws-code-pipeline.git 
