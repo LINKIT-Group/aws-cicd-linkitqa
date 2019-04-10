@@ -1,7 +1,7 @@
 # service_name should be unique
 # used in naming cloud of services where possible
 variable "service_name" {
-  default = "linkit-app-demo"
+  default = "app-demo"
 }
 
 variable "region" {
